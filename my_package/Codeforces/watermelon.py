@@ -1,6 +1,6 @@
-weight = int(input('Enter weight: '))
+weight = int(input())
 
 if weight > 2 and weight % 2 == 0:
-    print('Yes')
+    print('YES')
 else:
-    print('No')
+    print('NO')

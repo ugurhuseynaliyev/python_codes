@@ -1,5 +1,7 @@
-word = input('Enter word: ')
-if len(word) > 10:
-    print(f'{word[0]}{len(word)-2}{word[len(word)-1]}')
-else:
-    print(word)
+n = int(input())
+for _ in range(n):
+    st = input()
+    if len(st) < 11:
+        print(st)
+    else:
+        print(st[0] + str(len(st) - 2) + st[-1])
