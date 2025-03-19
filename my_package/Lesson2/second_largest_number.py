@@ -1,4 +1,4 @@
-arr = list(input('Enter list elements: ').split(' '))
+arr = list(set(input('Enter list elements: ').split(' ')))
 sorted_arr = []
 
 def secondLargestNumber(arr):
